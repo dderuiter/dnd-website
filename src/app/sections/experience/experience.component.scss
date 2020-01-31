@@ -1,0 +1,42 @@
+.btn-timeline {
+    border-left: 2px solid rgba(255, 255, 255, 0.158);
+    background-color: #1c2a48 !important;
+    box-shadow: none;
+    text-align: left;
+    color: white;
+}
+
+.btn-timeline:hover {
+    border-left: 2px solid rgba(255, 255, 255, 0.158);
+    background-color: #223357 !important;
+    box-shadow: none;
+    color: white;
+}
+
+.btn-timeline:focus,
+.btn-timeline:active,
+.btn-time-line-active {
+    border-left: 2px solid #f7f45f;
+    background-color: #1c2a48 !important;
+    box-shadow: none;
+    color: #f7f45f;
+}
+
+h5 {
+    color: white;
+    font-weight: 500;
+
+    span {
+        color: #f7f45f;
+    }
+}
+
+h6 {
+    color: rgb(136, 146, 176);
+    font-weight: 500;
+}
+
+.ul-top-level > li,
+.ul-top-level > ul {
+    margin-bottom: 8px;
+}

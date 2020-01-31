@@ -1,6 +1,41 @@
-body {
-    background: #1C2331;
-    color: #33b5e5;
-    // color: #18cae6;
-    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+// $accent-color: rgb(100, 255, 218);
+// $accent-color: #7c4dff;
+// $accent-color: #3f33e5;
+// $accent-color: #31497c;
+$accent-color: #f7f45f;
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #1c2a48;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1c2a48;
+    }
+}
+
+.text-accent-color {
+    color: $accent-color;
+}
+
+.background-accent-color {
+    background-color: $accent-color;
+}
+
+.container {
+    color: rgb(204, 214, 246) !important;
+}
+
+h1 {
+    color: rgb(204, 214, 246); 
+    font-size: 3.5rem !important;
+}
+
+h2 {
+    color: rgb(136, 146, 176);
+    font-size: 1.5rem !important;
 }
