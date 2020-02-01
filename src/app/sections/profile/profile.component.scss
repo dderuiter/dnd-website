@@ -1,9 +1,13 @@
-@import "../../variables.scss";
+@import "../../../variables.scss";
 
-#site-navbar {
+#profile {
+
+    strong {
+        color: white;
+    }
 
     button {
-        padding: 5px 15px;
+        margin-top: 20px !important;
         color: $accent-color !important;
         border: 2px solid $accent-color !important;
     }

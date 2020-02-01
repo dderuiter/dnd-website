@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './sections/about/about.component';
+import { ProfileComponent } from './sections/profile/profile.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { ExperienceComponent } from './sections/experience/experience.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
@@ -20,7 +20,7 @@ import { HomeLinkComponent } from './home-link/home-link.component';
         AppComponent,
         NavbarComponent,
         FooterComponent,
-        AboutComponent,
+        ProfileComponent,
         JumbotronComponent,
         ExperienceComponent,
         ProjectsComponent,

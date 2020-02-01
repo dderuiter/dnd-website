@@ -44,3 +44,15 @@ h2 {
     margin: auto;
     margin-top: 10px;
 }
+
+hr {
+    border-width: 2px !important;
+    background-color: $accent-color;
+}
+
+.site-section {
+    margin-top: 240px;
+    margin-bottom: 240px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
