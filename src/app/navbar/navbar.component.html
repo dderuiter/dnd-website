@@ -1,31 +1,23 @@
-<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="false">
+<mdb-navbar id="my-navbar" SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="false">
     <mdb-navbar-brand>
-        <a class="logo navbar-brand" href="#"><strong>DND</strong></a>
+        <button id="btn-resume" mdbBtn type="button" outline="true" class="ml-2 mr-2 mt-0 mb-0" mdbWavesEffect>Resume</button>
     </mdb-navbar-brand>
     <links>
-        <ul class="navbar-nav nav-flex-icons mr-auto">
-            <li class="nav-item waves-light" mdbWavesEffect>
-                <a class="nav-link"><mdb-icon fab icon="facebook-f"></mdb-icon></a>
-            </li>
-            <li class="nav-item waves-light" mdbWavesEffect>
-                <a class="nav-link"><mdb-icon fab icon="twitter"></mdb-icon></a>
-            </li>
-            <li class="nav-item waves-light" mdbWavesEffect>
-                <a class="nav-link"><mdb-icon fab icon="instagram"></mdb-icon></a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item active waves-light" mdbWavesEffect>
-                <a class="nav-link">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link">Profile<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item waves-light" mdbWavesEffect>
                 <a class="nav-link">Experience</a>
             </li>
             <li class="nav-item waves-light" mdbWavesEffect>
-                <a class="nav-link">Projects</a>
+                <a class="nav-link">Skills</a>
             </li>
             <li class="nav-item waves-light" mdbWavesEffect>
-                <a class="nav-link">Skills</a>
+                <a class="nav-link">Education</a>
+            </li>
+            <li class="nav-item waves-light" mdbWavesEffect>
+                <a class="nav-link">Projects</a>
             </li>
         </ul>
     </links>

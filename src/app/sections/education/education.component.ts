@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-experience',
-    templateUrl: './experience.component.html',
-    styleUrls: ['./experience.component.scss']
+    selector: 'app-education',
+    templateUrl: './education.component.html',
+    styleUrls: ['./education.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class EducationComponent implements OnInit {
 
     activeTabNum: number;
 
@@ -18,5 +18,5 @@ export class ExperienceComponent implements OnInit {
     showTab(tabNum) {
         this.activeTabNum = tabNum;
     }
-    
+
 }

@@ -1,20 +1,16 @@
-// $accent-color: rgb(100, 255, 218);
-// $accent-color: #7c4dff;
-// $accent-color: #3f33e5;
-// $accent-color: #31497c;
-$accent-color: #f7f45f;
+@import "./variables.scss";
 
-.navbar {
-    background-color: transparent;
-}
+// .navbar {
+//     background-color: transparent !important;
+// }
 
 .top-nav-collapse {
-    background-color: #1c2a48;
+    background-color: $background-color;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #1c2a48;
+        background-color: $background-color;
     }
 }
 
@@ -28,14 +24,23 @@ $accent-color: #f7f45f;
 
 .container {
     color: rgb(204, 214, 246) !important;
+    letter-spacing: .5px !important;
 }
 
 h1 {
-    color: rgb(204, 214, 246); 
+    color: $h1-color;
     font-size: 3.5rem !important;
 }
 
 h2 {
-    color: rgb(136, 146, 176);
+    color: $h2-color;
     font-size: 1.5rem !important;
+}
+
+.vertical-panel-line {
+    height: 100px;
+    width: 1px;
+    background: rgb(168, 178, 209);
+    margin: auto;
+    margin-top: 10px;
 }

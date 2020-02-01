@@ -11,6 +11,9 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { ExperienceComponent } from './sections/experience/experience.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { SkillsComponent } from './sections/skills/skills.component';
+import { EducationComponent } from './sections/education/education.component';
+import { SocialLinksComponent } from './social-links/social-links.component';
+import { HomeLinkComponent } from './home-link/home-link.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +24,10 @@ import { SkillsComponent } from './sections/skills/skills.component';
         JumbotronComponent,
         ExperienceComponent,
         ProjectsComponent,
-        SkillsComponent
+        SkillsComponent,
+        EducationComponent,
+        SocialLinksComponent,
+        HomeLinkComponent
     ],
     imports: [
         BrowserModule,
