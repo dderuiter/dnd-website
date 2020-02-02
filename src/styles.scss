@@ -14,12 +14,16 @@
     }
 }
 
-.text-accent-color {
-    color: $accent-color;
-}
+// .text-accent-color {
+//     color: $accent-color;
+// }
 
-.background-accent-color {
-    background-color: $accent-color;
+// .background-accent-color {
+//     background-color: $accent-color;
+// }
+
+#site-body {
+    background-color: $background-color;
 }
 
 .container {
@@ -27,13 +31,24 @@
     letter-spacing: .5px !important;
 }
 
-h1 {
-    color: $h1-color;
+.site-section {
+    background-color: $background-color-alt;
+    margin-top: 240px;
+    margin-bottom: 240px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+
+.section-title {
+    text-align: center;
+    color: $title-color;
     font-size: 3.5rem !important;
 }
 
-h2 {
-    color: $h2-color;
+.section-subtitle {
+    text-align: center;
+    color: $subtitle-color;
     font-size: 1.5rem !important;
 }
 
@@ -48,11 +63,4 @@ h2 {
 hr {
     border-width: 2px !important;
     background-color: $accent-color;
-}
-
-.site-section {
-    margin-top: 240px;
-    margin-bottom: 240px;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
