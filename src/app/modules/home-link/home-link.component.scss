@@ -8,6 +8,14 @@
     left: auto;
     z-index: 10;
 
+    .vertical-panel-line {
+        height: 100px;
+        width: 1px;
+        background: rgb(168, 178, 209);
+        margin: auto;
+        margin-top: 10px;
+    }
+
     div {
         text-align: center;
     

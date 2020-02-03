@@ -57,7 +57,7 @@ ul li::before {
 
 .btn-timeline {
     border-left: 2px solid rgba(255, 255, 255, 0.158);
-    background-color: $background-color !important;
+    background-color: $background-color-alt !important;
     box-shadow: none;
     text-align: left;
     color: white;
@@ -65,7 +65,7 @@ ul li::before {
 }
 
 .btn-timeline:hover {
-    border-left: 2px solid rgba(255, 255, 255, 0.158);
+    // border-left: 2px solid rgba(255, 255, 255, 0.158);
     background-color: $background-hover-color !important;
     box-shadow: none;
     color: white;
@@ -75,7 +75,7 @@ ul li::before {
 .btn-timeline:active,
 .btn-time-line-active {
     border-left: 2px solid $accent-color;
-    background-color: $background-color !important;
+    background-color: $background-color-alt !important;
     box-shadow: none;
     color: $accent-color;
 }
