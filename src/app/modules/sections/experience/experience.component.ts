@@ -37,10 +37,6 @@ export class ExperienceComponent implements OnInit {
                 default:
                     this.tags  = [];
             }
-            for(let i = 0; i < this.tags.length; i++) {
-                console.log(this.tags[i]);
-            }
-            console.log("-------------------------------");
         });
     }
 

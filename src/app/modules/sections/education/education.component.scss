@@ -3,7 +3,7 @@
 h5 {
     color: white;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     span {
         color: $accent-color;
@@ -46,69 +46,24 @@ ul li::before {
 
 .diamond-shape {
     position: absolute;
+    top: 50%;
     left: 0;
     right: 0;
     margin: auto;
-    background: rgb(168, 178, 209);;
+    background: $accent-color;
     height: 16px;
     text-align: center;
     transform: rotate(45deg);
     width: 16px;
 }
 
-.btn-timeline {
-    border-left: 2px solid rgba(255, 255, 255, 0.158);
-    background-color: $background-color-alt !important;
-    box-shadow: none;
-    text-align: left;
-    color: white;
-    white-space: nowrap;
-}
-
-.btn-timeline:hover {
-    // border-left: 2px solid rgba(255, 255, 255, 0.158);
-    background-color: $background-hover-color !important;
-    box-shadow: none;
-    color: white;
-}
-
-.btn-timeline:focus,
-.btn-timeline:active,
-.btn-time-line-active {
-    border-left: 2px solid $accent-color;
-    background-color: $background-color-alt !important;
-    box-shadow: none;
-    color: $accent-color;
-}
-
 @media only screen and (max-width: 992px) {
-    #btn-group {
-        flex-direction: row !important;
-        margin-bottom: 30px;
-        width: 100%;
+    .tline {
+        height: 0;
+        visibility: hidden;
     }
 
-    .btn-timeline {
-        border-left: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.158);
-        white-space: nowrap;
-    }
-
-    .btn-timeline:hover {
-        border-left: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.158);
-    }
-
-    .btn-timeline:focus,
-    .btn-timeline:active,
-    .btn-time-line-active {
-        border-left: none;
-        border-bottom: 2px solid $accent-color;
-    }
-}
-
-@media (max-width: 768px) {
-    .btn-timeline {
-        padding: 10px 10px;
+    .tdesc {
+        margin: 15px 0;
     }
 }
