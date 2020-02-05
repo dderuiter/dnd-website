@@ -30,12 +30,19 @@ li
 }
 
 .skill-star {
-    color: $accent-color;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     padding: 3px;
+}
+
+.star-empty {
+    color: #56678a;
+}
+
+.star-filled {
+    color: $accent-color;
 }
 
 li:hover .skill-star {
