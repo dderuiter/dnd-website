@@ -32,6 +32,7 @@
 }
 
 .site-section {
+    position: relative;
     background-color: $background-color-alt;
     margin-top: 240px;
     margin-bottom: 240px;
@@ -49,6 +50,11 @@
     text-align: center;
     color: $subtitle-color;
     font-size: 1.5rem !important;
+}
+
+.nav-target {
+    position: absolute;
+    top: -60px;
 }
 
 hr {
