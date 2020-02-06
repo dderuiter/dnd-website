@@ -3,33 +3,31 @@
     <h1 class="section-title">Skills</h1>
     <h2 class="section-subtitle">"Skill is only developed by hours and hours of work." - Usain Bolt</h2>
     <hr class="mt-4 mb-4 d-inline-block mx-auto w-100">
-    <h4>Languages</h4>
+    
     <div class="row">
-        <div class="col-lg-5 offset-lg-1">
+        <div class="col pl-5 pr-5">
+            <h4>Languages</h4>
             <ul>
-                <li>
-                    <span class="skill-title">Java</span>
+                <li *ngFor="let language of languages">
+                    <span class="skill-title">{{ language.name }}</span>
                     <span class="skill-score">
-                        <mdb-icon fas icon="star" class="skill-star"></mdb-icon>
-                        <mdb-icon fas icon="star" class="skill-star"></mdb-icon>
-                        <mdb-icon fas icon="star" class="skill-star"></mdb-icon>
-                        <mdb-icon fas icon="star" class="skill-star"></mdb-icon>
-                        <mdb-icon fas icon="star" class="skill-star"></mdb-icon>
-                    </span>
-                </li>
-                <li>
-                    <span class="skill-title">C#</span>
-                    <span class="skill-score">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star filled"></span>
-                        <span class="glyphicon glyphicon-star filled"></span>
-                        <span class="glyphicon glyphicon-star filled"></span>
+                        <mdb-icon *ngFor="let i of [].constructor(2)" fas icon="star" class="skill-star star-empty"></mdb-icon>
+                        <mdb-icon *ngFor="let i of [].constructor(3)" fas icon="star" class="skill-star star-filled"></mdb-icon>
                     </span>
                 </li>
             </ul>
         </div>
-        <div class="col-lg-5">
+        <div class="col pl-5 pr-5">
+            <h4>Frameworks</h4>
+            <ul>
+                <li *ngFor="let framework of frameworks">
+                    <span class="skill-title">{{ framework.name }}</span>
+                    <span class="skill-score">
+                        <mdb-icon *ngFor="let i of [].constructor(2)" fas icon="star" class="skill-star star-empty"></mdb-icon>
+                        <mdb-icon *ngFor="let i of [].constructor(3)" fas icon="star" class="skill-star star-filled"></mdb-icon>
+                    </span>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

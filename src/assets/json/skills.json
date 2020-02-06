@@ -1,7 +1,138 @@
 {
-    "languages": [],
-    "frameworks": [],
-    "libraries": [],
-    "ides": [],
-    "tools": []
+    "languages": [
+        {
+            "name": "C++",
+            "rating": 3
+        },
+        {
+            "name": "C#",
+            "rating": "3"
+        },
+        {
+            "name": "CSS",
+            "rating": 4
+        },
+        {
+            "name": "HTML",
+            "rating": 4
+        },
+        {
+            "name": "Groovy",
+            "rating": 3
+        },
+        {
+            "name": "Java",
+            "rating": 5
+        },
+        {
+            "name": "JavaScript",
+            "rating": 4
+        },
+        {
+            "name": "Prolog",
+            "rating": 2
+        },
+        {
+            "name": "Python",
+            "rating": 3
+        },
+        {
+            "name": "Scheme",
+            "rating": 2
+        },
+        {
+            "name": "SCSS",
+            "rating": 3
+        }
+    ],
+    "frameworks": [
+        {
+            "name": "Angular",
+            "rating": 3
+        },
+        {
+            "name": "ASP.NET",
+            "rating": 3
+        },
+        {
+            "name": "Apache CXF",
+            "rating": 4
+        },
+        {
+            "name": "Bootstrap",
+            "rating": 4
+        },
+        {
+            "name": "Spring",
+            "rating": 4
+        }
+    ],
+    "libraries": [
+        {
+            "name": "JavaFX",
+            "rating": 2
+        },
+        {
+            "name": "jQuery",
+            "rating": 4
+        },
+        {
+            "name": "MDBootstrap",
+            "rating": 4
+        }
+    ],
+    "databases": [
+        {
+            "name": "Oracle (PL/SQL)",
+            "rating": 2
+        },
+        {
+            "name": "MongoDB (NoSQL)",
+            "rating": 3
+        },
+        {
+            "name": "MySQL (SQL)",
+            "rating": 3
+        }
+    ],
+    "ides": [
+        {
+            "name": "Eclipse",
+            "rating": 4
+        },
+        {
+            "name": "IntelliJ IDEA",
+            "rating": 5
+        },
+        {
+            "name": "Netbeans",
+            "rating": 2
+        },
+        {
+            "name": "Visual Studio",
+            "rating": 3
+        },
+        {
+            "name": "Visual Studio Code",
+            "rating": 4
+        },
+        {
+            "name": "Webstorm",
+            "rating": 3
+        }
+    ],
+    "sourceControl": [
+        {
+            "name": "ClearCase",
+            "rating":4
+        },
+        {
+            "name": "Git",
+            "rating": 5
+        },
+        {
+            "name": "Subversion",
+            "rating": 3
+        }
+    ]
 }
