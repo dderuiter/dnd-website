@@ -1,12 +1,16 @@
 {
     "languages": [
         {
+            "name": "AutoIt",
+            "rating": 2
+        },
+        {
             "name": "C++",
             "rating": 3
         },
         {
             "name": "C#",
-            "rating": "3"
+            "rating": 3
         },
         {
             "name": "CSS",
@@ -29,8 +33,16 @@
             "rating": 4
         },
         {
-            "name": "Prolog",
+            "name": "NativeScript",
+            "rating": 1
+        },
+        {
+            "name": "MATLAB",
             "rating": 2
+        },
+        {
+            "name": "Prolog",
+            "rating": 1
         },
         {
             "name": "Python",
@@ -38,11 +50,15 @@
         },
         {
             "name": "Scheme",
-            "rating": 2
+            "rating": 1
         },
         {
             "name": "SCSS",
             "rating": 3
+        },
+        {
+            "name": "VBScript",
+            "rating": 2
         }
     ],
     "frameworks": [
@@ -63,21 +79,15 @@
             "rating": 4
         },
         {
-            "name": "Spring",
-            "rating": 4
-        }
-    ],
-    "libraries": [
-        {
-            "name": "JavaFX",
-            "rating": 2
-        },
-        {
-            "name": "jQuery",
-            "rating": 4
+            "name": "Kendo UI",
+            "rating": 3
         },
         {
             "name": "MDBootstrap",
+            "rating": 4
+        },
+        {
+            "name": "Spring",
             "rating": 4
         }
     ],
@@ -95,7 +105,35 @@
             "rating": 3
         }
     ],
+    "libraries": [
+        {
+            "name": "JavaFX",
+            "rating": 2
+        },
+        {
+            "name": "jQuery",
+            "rating": 4
+        }
+    ],
+    "sourceControl": [
+        {
+            "name": "ClearCase",
+            "rating": 4
+        },
+        {
+            "name": "Git",
+            "rating": 5
+        },
+        {
+            "name": "Subversion",
+            "rating": 3
+        }
+    ],
     "ides": [
+        {
+            "name": "Android Studio",
+            "rating": 3
+        },
         {
             "name": "Eclipse",
             "rating": 4
@@ -121,18 +159,18 @@
             "rating": 3
         }
     ],
-    "sourceControl": [
+    "miscellaneous": [
         {
-            "name": "ClearCase",
-            "rating":4
+            "name": "JSON",
+            "rating": 4
         },
         {
-            "name": "Git",
-            "rating": 5
-        },
-        {
-            "name": "Subversion",
+            "name": "Node.js",
             "rating": 3
+        },
+        {
+            "name": "XML",
+            "rating": 4
         }
     ]
 }

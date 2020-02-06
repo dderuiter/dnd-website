@@ -14,6 +14,7 @@ export class SkillsComponent implements OnInit {
     databases: Array<Skill>;
     ides: Array<Skill>;
     sourceControl: Array<Skill>;
+    miscellaneous: Array<Skill>;
 
     constructor(private skillService : SkillService) { }
 
@@ -22,10 +23,11 @@ export class SkillsComponent implements OnInit {
             console.log(data);
             this.languages = data["languages"];
             this.frameworks = data["frameworks"];
-            this.libraries = data["libraries"];
             this.databases = data["databases"];
-            this.ides = data["ides"];
+            this.libraries = data["libraries"];
             this.sourceControl = data["sourceControl"];
+            this.ides = data["ides"];
+            this.miscellaneous = data["miscellaneous"];
         });
     }
 
