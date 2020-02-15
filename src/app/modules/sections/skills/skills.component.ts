@@ -20,7 +20,6 @@ export class SkillsComponent implements OnInit {
 
     ngOnInit() {
         this.skillService.getSkills().subscribe(data => {
-            console.log(data);
             this.languages = data["languages"];
             this.frameworks = data["frameworks"];
             this.databases = data["databases"];
