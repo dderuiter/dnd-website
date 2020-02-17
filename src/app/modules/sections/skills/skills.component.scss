@@ -12,25 +12,19 @@ ul {
     margin: 0px;
     margin-top: 10px;
     margin-bottom: 40px;
-	padding: 0;
+    padding: 0;
 }
 
 li {
-    height: auto; 
-	padding: 4px; 
+    height: auto;
+    padding: 4px;
 }
 
 li:hover {
     background: $background-hover-color;
 }
 
-li
-{ 
-    // .skill-name {
-    //     display: inline-block;
-    //     width: 60%;
-    // }
-    
+li {
     .skill-rating {
         float: right;
     }
@@ -56,17 +50,17 @@ li:hover .skill-star {
     margin-left: 4px;
 }
 
-// li .skill-score .glyphicon.filled 
-// { 
-// 	color: #C74343; 
+// li .skill-score .glyphicon.filled
+// {
+// 	color: #C74343;
 // }
 
-// li .skill-score .glyphicon 
-// { 
+// li .skill-score .glyphicon
+// {
 // 	color: #C0C0C0;
 // }
 
-// li:hover .skill-score .glyphicon 
-// { 
-// 	margin-left: 4px; 
+// li:hover .skill-score .glyphicon
+// {
+// 	margin-left: 4px;
 // }
