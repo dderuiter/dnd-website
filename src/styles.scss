@@ -28,7 +28,7 @@
 
 .container {
     color: rgb(204, 214, 246) !important;
-    letter-spacing: .5px !important;
+    letter-spacing: 0.5px !important;
 }
 
 .site-section {
@@ -60,4 +60,13 @@
 hr {
     border-width: 2px !important;
     background-color: $accent-color;
+}
+
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-indicators {
+    display: none !important;
 }
