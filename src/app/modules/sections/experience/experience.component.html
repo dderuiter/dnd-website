@@ -7,17 +7,25 @@
         <div class="col-lg-3">
             <div class="text-center">
                 <div id="btn-group" class="btn-group-vertical" role="group">
-                    <button (click)="showTab(0)" [class.btn-time-line-active]="activeTabNum === 0" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2017 - Present</button>
-                    <button (click)="showTab(1)" [class.btn-time-line-active]="activeTabNum === 1" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2016</button>
-                    <button (click)="showTab(2)" [class.btn-time-line-active]="activeTabNum === 2" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2015</button>
-                    <button (click)="showTab(3)" [class.btn-time-line-active]="activeTabNum === 3" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2014</button>
+                    <button (click)="showTab(0)" [class.btn-time-line-active]="activeTabNum === 0" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2022 - Present</button>
+                    <button (click)="showTab(0)" [class.btn-time-line-active]="activeTabNum === 1" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2017 - 2022</button>
+                    <button (click)="showTab(1)" [class.btn-time-line-active]="activeTabNum === 2" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2016</button>
+                    <button (click)="showTab(2)" [class.btn-time-line-active]="activeTabNum === 3" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2015</button>
+                    <button (click)="showTab(3)" [class.btn-time-line-active]="activeTabNum === 4" mdbBtn type="button" class="waves-light mt-0 mb-0 btn-timeline" mdbWavesEffect>2014</button>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div *ngIf="activeTabNum === 0">
+                <h5>Software Engineer <span>@ Amazon</span></h5>
+                <h6 class="mb-4">Feb 2022 - Present</h6>
+                <ul class="ul-top-level">
+                    <li>SDE on the Amazon Fulfillment Technologies (AFT) Identity team.</li>
+                </ul>
+            </div>
+            <div *ngIf="activeTabNum === 1">
                 <h5>Software Engineer <span>@ L3Harris Technologies</span></h5>
-                <h6 class="mb-4">June 2017 - Present</h6>
+                <h6 class="mb-4">June 2017 - Feb 2022</h6>
                 <ul class="ul-top-level">
                     <li>Function as the technical lead for an enterprise custom PLM software solution with <b>8,000+</b> active users.</li>
                     <li>Implement bug fixes, improvements, and new features for a <b>500,000+</b> line codebase on a daily basis.</li>
@@ -54,7 +62,7 @@
                     <li>Completed multiple e3 Just Do It projects in 2021 that save L3Harris an estimated <b>$65,600</b> annually exceeding goal by <b>119%</b>.</li>
                 </ul>
             </div>
-            <div *ngIf="activeTabNum === 1">
+            <div *ngIf="activeTabNum === 2">
                 <h5>Software Engineer (Intern) <span>@ L3Harris Technologies</span></h5>
                 <h6 class="mb-4">May - Aug 2016</h6>
                 <ul class="ul-top-level">
@@ -66,7 +74,7 @@
                     <li>Deployed code to development server using CruiseControl.NET and wrote documentation explaining the procedure for deploying to QA and production servers.</li>
                 </ul>
             </div>
-            <div *ngIf="activeTabNum === 2">
+            <div *ngIf="activeTabNum === 3">
                 <h5>Software Engineer (Intern) <span>@ L3Harris Technologies</span></h5>
                 <h6 class="mb-4">May - Aug 2015</h6>
                 <ul class="ul-top-level">
@@ -76,7 +84,7 @@
                     <li>Assessed needs of customer and designed a machine learning UX tool to aide in managing datasets and comparing the effectiveness of learning/analytic algorithms.</li>
                 </ul>
             </div>
-            <div *ngIf="activeTabNum === 3">
+            <div *ngIf="activeTabNum === 4">
                 <h5>Software Engineer (Intern) <span>@ L3Harris Technologies</span></h5>
                 <h6 class="mb-4">May - Aug 2014</h6>
                 <ul class="ul-top-level">
